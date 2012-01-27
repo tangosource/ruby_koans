@@ -1,4 +1,4 @@
-= EdgeCase Ruby Koans
+# Tangosource Ruby Koans
 
 The Ruby Koans walk you along the path to enlightenment in order to learn Ruby.
 The goal is to learn the Ruby language, syntax, structure, and some common
@@ -6,7 +6,7 @@ functions and libraries. We also teach you culture. Testing is not just somethin
 pay lip service to, but something we live.  It is essential in your quest to learn
 and do great things in the language.
 
-== The Structure
+## The Structure
 
 The koans are broken out into areas by file, hashes are covered in about_hashes.rb,
 modules are introduced in about_modules.rb, etc.  They are presented in order in the
@@ -16,47 +16,31 @@ Each koan builds up your knowledge of Ruby and builds upon itself.  It will stop
 the first place you need to correct.
 
 Some koans simply need to have the correct answer substituted for an incorrect one.
-Some, however, require you to supply your own answer.  If you see the method +__+ (a
+Some, however, require you to supply your own answer.  If you see the method __ (a
 double underscore) listed, it is a hint to you to supply your own code in order to
 make it work correctly.
 
-== Installing Ruby
+## Installing Ruby
 
-If you do not have Ruby setup, please visit http://ruby-lang.org/en/downloads/ for
-operating specific instructions.  In order to run this you need ruby and rake
-installed. To check the installations simply type:
+Comming soon, you will find inside the [TangoSource Wiki](https://github.com/tangosource/wiki) 
+the necessary information about how to install ruby on Linux/Unix Systems, and Mac OS X.
 
-*nix platforms from any terminal window:
-
-   [~] $ ruby --version
-   [~] $ rake --version
-
-Windows from the command prompt (cmd.exe)
-
-   c:\ruby --version
-   c:\rake --version
-
-If you don't have rake installed, just run `gem install rake`
-
-Any response for Ruby with a version number greater than 1.8 is fine (should be
-around 1.8.6 or more). Any version of rake will do.
-
-== The Path To Enlightenment
+## The Path To Enlightenment
 
 You can run the tests through rake or by calling the file itself (rake is the
 recommended way to run them as we might build more functionality into this task).
 
-*nix platforms, from the koans directory
+Unix platforms, from the koans directory
 
     [ruby_koans] $ rake                           # runs the default target :walk_the_path
     [ruby_koans] $ ruby path_to_enlightenment.rb  # simply call the file directly
-
+git@github.com:tangosource/wiki.git
 Windows is the same thing
 
     c:\ruby_koans\rake                             # runs the default target :walk_the_path
     c:\ruby_koans\ruby path_to_enlightenment.rb    # simply call the file directly
 
-=== Red, Green, Refactor
+### Red, Green, Refactor
 
 In test-driven development the mantra has always been, red, green, refactor.  Write a
 failing test and run it (red), make the test pass (green), then refactor it (that is
@@ -97,47 +81,18 @@ We then open up the about_asserts.rb file and look at the first test:
       assert false                # This should be true
     end
 
-We then change the +false+ to +true+ and run the test again.  After you are
+We then change the `false` to `true` and run the test again.  After you are
 done, think about what you are learning.  In this case, ignore everything except
-the method name (+test_assert_truth+) and the parts inside the method (everything
-before the +end+).
+the method name (`test_assert_truth`) and the parts inside the method (everything
+before the `end`).
 
-In this case the goal is for you to see that if you pass a value to the +assert+
-method, it will either ensure it is +true+ and continue on, or fail if in fact
-the statement is +false+.
+In this case the goal is for you to see that if you pass a value to the `assert`
+method, it will either ensure it is `true` and continue on, or fail if in fact
+the statement is `false`.
 
-== Inspiration
+#### Special thanks
 
-A special thanks to Mike Clark and Ara Howard for inspiring this
-project.  Mike Clark wrote an excellent blog post about learning Ruby
-through unit testing. This sparked an idea that has taken a bit to
-solidify, that of bringing new rubyists into the community through
-testing. Ara Howard then gave us the idea for the Koans in his ruby
-quiz entry on Meta Koans (a must for any rubyist wanting to improve
-their skills).  Also, "The Little Lisper" taught us all the value of
-the short questions/simple answers style of learning.
-
-Mike Clark's post ::  http://www.clarkware.com/cgi/blosxom/2005/03/18
-Meta Koans        ::  http://rubyquiz.com/quiz67.html
-The Little Lisper ::  http://www.amazon.com/Little-LISPer-Third-Daniel-Friedman/dp/0023397632
-
-== Other Resources
-
-The Ruby Language               ::  http://ruby-lang.org
-Try Ruby in your browser        ::  http://tryruby.org
-
-Dave Thomas' introduction to Ruby Programming Ruby (the Pick Axe) ::  http://pragprog.com/titles/ruby/programming-ruby
-
-Brian Marick's fantastic guide for beginners Everyday Scripting with Ruby    ::  http://pragprog.com/titles/bmsft/everyday-scripting-with-ruby
-
-= Other stuff
-
-Author         :: Jim Weirich <jim@weirichhouse.org>
-Author         :: Joe O'Brien <joe@edgecase.com>
-Issue Tracker  :: http://www.pivotaltracker.com/projects/48111
-Requires       :: Ruby 1.8.x or later and Rake (any recent version)
-
-= License
+To [edgecase](https://github.com/edgecase) for their RubyKoans repository, you can fork it and make your own.
 
 http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
 
