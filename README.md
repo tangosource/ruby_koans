@@ -1,4 +1,4 @@
-# Tangosource Ruby Koans
+# TangoSource Ruby Koans
 
 The Ruby Koans walk you along the path to enlightenment in order to learn Ruby.
 The goal is to learn the Ruby language, syntax, structure, and some common
@@ -16,7 +16,7 @@ Each koan builds up your knowledge of Ruby and builds upon itself.  It will stop
 the first place you need to correct.
 
 Some koans simply need to have the correct answer substituted for an incorrect one.
-Some, however, require you to supply your own answer.  If you see the method __ (a
+Some, however, require you to supply your own answer.  If you see the method `__` (a
 double underscore) listed, it is a hint to you to supply your own code in order to
 make it work correctly.
 
