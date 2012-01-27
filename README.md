@@ -29,8 +29,7 @@ the necessary information about how to install ruby on Linux/Unix Systems, and M
 
 ### Installation
 
-Download this repo `git clone git@github.com/tangosource/ruby_koans.git`, `cd ruby_koans/src`
-and run `ruby path_to_enlightment.rb` file to follow the first instructions of the tutorial!!!
+Download this repo `git clone git@github.com/tangosource/ruby_koans.git`, go to `cd ruby_koans/`.
 
 ### Usage
 
