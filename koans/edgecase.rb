@@ -232,39 +232,12 @@ module EdgeCase
       ruby_version = "(in #{'J' if defined?(JRUBY_VERSION)}Ruby #{defined?(JRUBY_VERSION) ? JRUBY_VERSION : RUBY_VERSION})"
       ruby_version = ruby_version.side_padding(54)
         completed = <<-ENDTEXT
-                                  ,,   ,  ,,
-                                :      ::::,    :::,
-                   ,        ,,: :::::::::::::,,  ::::   :  ,
-                 ,       ,,,   ,:::::::::::::::::::,  ,:  ,: ,,
-            :,        ::,  , , :, ,::::::::::::::::::, :::  ,::::
-           :   :    ::,                          ,:::::::: ::, ,::::
-          ,     ,:::::                                  :,:::::::,::::,
-      ,:     , ,:,,:                                       :::::::::::::
-     ::,:   ,,:::,                                           ,::::::::::::,
-    ,:::, :,,:::                                               ::::::::::::,
-   ,::: :::::::,       Mountains are again merely mountains     ,::::::::::::
-   :::,,,::::::                                                   ::::::::::::
- ,:::::::::::,                                                    ::::::::::::,
- :::::::::::,                                                     ,::::::::::::
-:::::::::::::                                                     ,::::::::::::
 ::::::::::::                      Ruby Koans                       ::::::::::::,
 ::::::::::::#{                  ruby_version                     },::::::::::::,
-:::::::::::,                                                      , ::::::::::::
 ,:::::::::::::,                brought to you by                 ,,::::::::::::,
-::::::::::::::                                                    ,::::::::::::
- ::::::::::::::,                                                 ,:::::::::::::
+,::::::::::::::,                TangoSource LLC                 ,,:::::::::::::,
+,::::::::::::::,                   Thanks to                    ,,:::::::::::::,
  ::::::::::::,             EdgeCase Software Artisans           , ::::::::::::
-  :,::::::::: ::::                                               :::::::::::::
-   ,:::::::::::  ,:                                          ,,:::::::::::::,
-     ::::::::::::                                           ,::::::::::::::,
-      :::::::::::::::::,                                  ::::::::::::::::
-       :::::::::::::::::::,                             ::::::::::::::::
-        ::::::::::::::::::::::,                     ,::::,:, , ::::,:::
-          :::::::::::::::::::::::,               ::,: ::,::, ,,: ::::
-              ,::::::::::::::::::::              ::,,  , ,,  ,::::
-                 ,::::::::::::::::              ::,, ,   ,:::,
-                      ,::::                         , ,,
-                                                  ,,,
 ENDTEXT
         puts completed
     end
@@ -274,7 +247,7 @@ ENDTEXT
       puts "The Master says:"
       puts Color.cyan("  You have not yet reached enlightenment.")
       if ((recents = progress.last(5)) && recents.size == 5 && recents.uniq.size == 1)
-        puts Color.cyan("  I sense frustration. Do not be afraid to ask for help.")
+        puts Color.cyan("  I sense frustration. Do not be afraid to ask TangoSource Team for help.")
       elsif progress.last(2).size == 2 && progress.last(2).uniq.size == 1
         puts Color.cyan("  Do not lose hope.")
       elsif progress.last.to_i > 0
