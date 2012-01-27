@@ -27,6 +27,13 @@ the necessary information about how to install ruby on Linux/Unix Systems, and M
 
 ## The Path To Enlightenment
 
+### Installation
+
+Download this repo `git clone git@github.com/tangosource/ruby_koans.git`, `cd ruby_koans/src`
+and run `ruby path_to_enlightment.rb` file to follow the first instructions of the tutorial!!!
+
+### Usage
+
 You can run the tests through rake or by calling the file itself (rake is the
 recommended way to run them as we might build more functionality into this task).
 
@@ -34,11 +41,6 @@ Unix platforms, from the koans directory
 
     [ruby_koans] $ rake                           # runs the default target :walk_the_path
     [ruby_koans] $ ruby path_to_enlightenment.rb  # simply call the file directly
-git@github.com:tangosource/wiki.git
-Windows is the same thing
-
-    c:\ruby_koans\rake                             # runs the default target :walk_the_path
-    c:\ruby_koans\ruby path_to_enlightenment.rb    # simply call the file directly
 
 ### Red, Green, Refactor
 
