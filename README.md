@@ -38,8 +38,8 @@ recommended way to run them as we might build more functionality into this task)
 
 Unix platforms, from the koans directory
 
-    [ruby_koans] $ rake                           # runs the default target :walk_the_path
-    [ruby_koans] $ ruby path_to_enlightenment.rb  # simply call the file directly
+    [ruby_koans] $ rake                                  # runs the default target :walk_the_path
+    [ruby_koans] $ ruby koans/path_to_enlightenment.rb   # simply call the file directly
 
 ### Red, Green, Refactor
 
