@@ -94,7 +94,7 @@ the statement is `false`.
 
 To [edgecase](https://github.com/edgecase) for their RubyKoans repository, you can fork it and make your own.
 
-http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
+![creative commons](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
 
 RubyKoans is released under a Creative Commons,
 Attribution-NonCommercial-ShareAlike, Version 3.0
